@@ -127,6 +127,10 @@
       templateUrl: '/static/templates/contributors/lucamatsumoto.html'
     })
 
+	.when('/contributors/phiju',{
+		templateUrl: '/static/templates/contributors/phiju.html'
+	})		
+
     .otherwise('/');   
   }
 })();
